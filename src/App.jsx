@@ -11,6 +11,7 @@ import Technology from './Technology'
 function App() {
 return(
     <div>
+
       <Routes>
         <Route path='/' element={ <Home />}  />
         <Route path='/Crew' element={ <Crew />} />
