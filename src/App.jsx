@@ -8,9 +8,6 @@ import Technology from './Technology'
 
 
 
-import './App.css'
-
-
 function App() {
 return(
     <div>
