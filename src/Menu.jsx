@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import MenuDesplegable from './Nav-bar-desktop';
 
+
 const classNameFunc = ({ isActive }) => (isActive ? "active_link" : "");
 
 function Menu() {
