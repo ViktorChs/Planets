@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from "assets/shared/logo.svg"
 
 
 
@@ -14,7 +13,7 @@ const MenuDesplegable = () => {
 
   return (
     <div className="nav_bar-mobile">
-    <img className='Logo' src={logo} alt='logo'/>
+    <img className='Logo' src="/vercel/path0/src/shared/logo.svg" alt='logo'/>
       <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
