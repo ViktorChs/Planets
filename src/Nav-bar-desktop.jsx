@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link , NavLink} from 'react-router-dom';
+import Logo from '/public/shared/logo.svg'
 
 
 
@@ -14,7 +15,7 @@ const MenuDesplegable = () => {
   return (
     <div className="nav_bar-mobile">
     <img className='Logo' src="public/shared/logo.svg" alt='logo'/>
-      <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
+      <button onClick={toggleMenu}><img className='logo' src={Logo} alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
         <li><NavLink className={classNameFunc} to="/"><strong>00</strong> Home</NavLink></li>

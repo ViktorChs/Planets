@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import MenuDesplegable from './Nav-bar-desktop';
+import Logo from '/public/shared/logo.svg'
 
 
 const classNameFunc = ({ isActive }) => (isActive ? "active_link" : "");
@@ -10,7 +11,7 @@ function Menu() {
         <>
     <MenuDesplegable />
 <div className='nav_bar-desktop-1024'>
-<div><img className='Logo' src="public/shared/logo.svg" alt='logo'/></div>
+<div><img className='Logo' src={Logo} alt='logo'/></div>
 <div className="nav_bar-decoration"></div>
         <div className="nav_bar-links">
 <ul>
