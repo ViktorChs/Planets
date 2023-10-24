@@ -12,7 +12,7 @@ const MenuDesplegable = () => {
 
   return (
     <div className="nav_bar-mobile">
-    <img className='Logo' src='Planets/src/shared/logo.svg' alt='logo'/>
+    <img className='Logo' src="assets/shared/logo.svg" alt='logo'/>
       <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
