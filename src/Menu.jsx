@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import MenuDesplegable from './Nav-bar-desktop';
 
 
@@ -19,10 +19,6 @@ function Menu() {
     <li><NavLink className={classNameFunc} to="/Crew"><strong>02</strong> Crew</NavLink></li>
     <li><NavLink className={classNameFunc} to="/Technology"><strong>03</strong> Technology</NavLink></li>
 </ul>
-       
-        
-        
-       
         </div>
         </div></>)
 }

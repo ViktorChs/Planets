@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link , NavLink} from 'react-router-dom';
 
 
 
@@ -17,10 +17,10 @@ const MenuDesplegable = () => {
       <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
-          <Link to="/"><strong>00</strong> Home</Link>
-          <Link to="/Destination"><strong>01</strong> Destination</Link>
-          <Link to="/Crew"><strong>02</strong> Crew</Link>
-          <Link to="/Technology"><strong>03</strong> Technology</Link>
+        <li><NavLink className={classNameFunc} to="/"><strong>00</strong> Home</NavLink></li>
+    <li><NavLink className={classNameFunc} to="/Destination"><strong>01</strong> Destination</NavLink></li>
+    <li><NavLink className={classNameFunc} to="/Crew"><strong>02</strong> Crew</NavLink></li>
+    <li><NavLink className={classNameFunc} to="/Technology"><strong>03</strong> Technology</NavLink></li>
         </div>
       )}
     </div>
