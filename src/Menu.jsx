@@ -9,7 +9,7 @@ function Menu() {
         <>
     <MenuDesplegable />
 <div className='nav_bar-desktop-1024'>
-<div><img className='Logo' src='/src/shared/logo.svg' alt='logo'/></div>
+<div><img className='Logo' src='src/shared/logo.svg' alt='logo'/></div>
 <div className="nav_bar-decoration"></div>
         <div className="nav_bar-links">
 <ul>

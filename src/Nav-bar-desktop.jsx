@@ -12,8 +12,8 @@ const MenuDesplegable = () => {
 
   return (
     <div className="nav_bar-mobile">
-    <img className='Logo' src='/src/shared/logo.svg' alt='logo'/>
-      <button onClick={toggleMenu}><img className='logo' src="./src/shared/icon-hamburger.svg" alt="" /></button>
+    <img className='Logo' src='src/shared/logo.svg' alt='logo'/>
+      <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
           <Link to="/"><strong>00</strong> Home</Link>
