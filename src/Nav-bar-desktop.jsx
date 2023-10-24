@@ -13,7 +13,7 @@ const MenuDesplegable = () => {
 
   return (
     <div className="nav_bar-mobile">
-    <img className='Logo' src="/vercel/path0/src/shared/logo.svg" alt='logo'/>
+    <img className='Logo' src="/src/home/background-home-mobile.jpg" alt='logo'/>
       <button onClick={toggleMenu}><img className='logo' src="src/shared/icon-hamburger.svg" alt="" /></button>
       {menuVisible && (
         <div className='nav_bar-desktop'>
