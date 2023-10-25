@@ -1,14 +1,13 @@
 import React, { useState , useEffect} from "react"
 
-import Techimg6 from '/public/technology/image-launch-vehicle-portrait.jpg'
-import Techimg5 from '/public/technology/image-launch-vehicle-landscape.jpg'
+import Techimg6 from '/public/technology/image-launch-vehicle-portrait.jpg';
+import Techimg5 from '/public/technology/image-launch-vehicle-landscape.jpg';
 
-import Techimg4 from '/public/technology/image-spaceport-portrait.jpg'
-import Techimg3 from '/public/technology/image-spaceport-landscape.jpg'
+import Techimg4 from '/public/technology/image-spaceport-portrait.jpg';
+import Techimg3 from '/public/technology/image-spaceport-landscape.jpg';
 
-import Techimg2 from '/public/technology/image-space-capsule-portrait.jpg'
-import Techimg1 from '/public/technology/image-space-capsule-landscape.jpg'
-
+import Techimg2 from '/public/technology/image-space-capsule-portrait.jpg';
+import Techimg1 from '/public/technology/image-space-capsule-landscape.jpg';
 import Menu from "./Menu";
 
 
