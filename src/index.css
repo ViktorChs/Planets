@@ -513,7 +513,7 @@ p.Tech_Title-seccion {
     height: 100vh;
   }
   body.Technology {
-    background: url("./technology/background-technology-tablet.jpg");
+    background: url("public/technology/background-technology-tablet.jpg");
     background-size: cover;
     height: 100vh;
   }
@@ -535,7 +535,7 @@ p.Tech_Title-seccion {
     height: 100vh;
   }
   body.Technology {
-    background: url("./technology/background-technology-desktop.jpg");
+    background: url("public/technology/background-technology-desktop.jpg");
     background-size: cover;
     height: 100vh;
   }
