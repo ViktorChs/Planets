@@ -4,9 +4,6 @@ import Menu from "./Menu";
 
 
 
-const routeBackgrounds = {
-  'crew': 'la url de la imagen',
-}
 
 
 
