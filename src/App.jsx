@@ -31,14 +31,14 @@ const DynamicBackground = () => {
       desktop: '/src/home/background-home-desktop.jpg',
     },
     '/Destination': {
-      mobile: 'public/destination/background-destination-mobile.jpg',
-      tablet: 'public/destination/background-destination-tablet.jpg',
-      desktop:'public/destination/background-destination-desktop.jpg',
+      mobile: './destination/background-destination-mobile.jpg',
+      tablet: './destination/background-destination-tablet.jpg',
+      desktop:'./destination/background-destination-desktop.jpg',
     },
     '/Crew': {
-      mobile: 'public/crew/background-crew-mobile.jpg',
-      tablet: '',
-      desktop: 'public/crew/background-crew-desktop.jpg',
+      mobile: './crew/background-crew-mobile.jpg',
+      tablet: './crew/background-crew-tablet.jpg',
+      desktop: './crew/background-crew-desktop.jpg',
     },
     '/Technology': {
       mobile: '/src/technology/background-technology-mobile.jpg',
