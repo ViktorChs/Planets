@@ -21,8 +21,8 @@ div#root {
 }
 .AAA {
   background-size: cover;
-  height: unset;
   width: 100vw;
+  height: 107%;
   position: absolute;
   top: 0;
   right: 0;
