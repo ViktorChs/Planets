@@ -16,31 +16,31 @@ function Destination(){
     const cambiarPlaneta = (nuevoPlaneta) => {
         setPlanet(nuevoPlaneta);
       };
-
+const planet2 ={}
     const planetData = {
         Moon: {
             Description: ' See our planet as you\’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you\’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.',
             Distance: '384,400 km',
             TravelTime: '3 days',
-            img: "https://github.com/ViktorChs/Planets/blob/main/src/destination/image-moon.png?raw=true"
+            img: "./destination/image-mars.png"
         },
         Mars: {
             Description: '  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!',
             Distance: '225 mil. km',
             TravelTime: '9 months',
-            img: "https://github.com/ViktorChs/Planets/blob/main/src/destination/image-mars.png?raw=true"
+            img: "./destination/image-mars.png"
         },
         Europa: {
             Description: 'The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.',
             Distance: '628 mil. km',
             TravelTime: '3 years',
-            img: "https://github.com/ViktorChs/Planets/blob/0b300d49535df4878c56b1b85bfc1c8eae0f2946/src/destination/image-europa.png?raw=true"
+            img: "./destination/image-europa.png"
         },
         Titan: {
             Description: '  The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.',
             Distance: '1.6 bil. km',
             TravelTime: '7 years',
-            img: "https://github.com/ViktorChs/Planets/blob/main/src/destination/image-titan.png?raw=true"
+            img: "./destination/image-titan.png"
         }
       };
     return(
