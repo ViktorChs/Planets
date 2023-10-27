@@ -26,9 +26,9 @@ const DynamicBackground = () => {
 
   const routeImages = {
     '/': {
-      mobile: '/src/home/background-home-mobile.jpg',
-      tablet: '/src/home/background-home-tablet.jpg',
-      desktop: '/src/home/background-home-desktop.jpg',
+      mobile: './home/background-home-mobile.jpg',
+      tablet: './home/background-home-tablet.jpg',
+      desktop: './home/background-home-desktop.jpg',
     },
     '/Destination': {
       mobile: './destination/background-destination-mobile.jpg',
@@ -41,9 +41,9 @@ const DynamicBackground = () => {
       desktop: './crew/background-crew-desktop.jpg',
     },
     '/Technology': {
-      mobile: '/src/technology/background-technology-mobile.jpg',
-      tablet: '',
-      desktop: '/path-to-desktop-image.jpg',
+      mobile: './technology/background-technology-mobile.jpg',
+      tablet: './technology/background-technology-tablet.jpg',
+      desktop:'./technology/background-technology-desktop.jpg',
     },
    
   };
