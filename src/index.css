@@ -21,40 +21,20 @@ div#root {
 }
 .AAA {
   background-size: cover;
-  height: 100vh;
+  height: unset;
   width: 100vw;
   position: absolute;
   top: 0;
   right: 0;
 }
-/*
-body.Home {
-  background: url("/src/home/background-home-mobile.jpg");
-  background-size: cover;
-  height: 100vh;
-}
-body.Destination {
-  background: url("/src/destination/background-destination-mobile.jpg");
-  background-size: cover;
-  height: 100vh;
-}
-body.Crew {
-  background: url("/src/crew/background-crew-mobile.jpg");
-  background-size: cover;
-  height: 100vh;
-}
-body.Technology {
-  background: url("./technology/background-technology-mobile.jpg");
-  background-size: cover;
-  height: 100vh;
-}
-*/
+
 .body_content-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 87vh;
-  width: 87vw;
+  /* width: 87vw; */
+  margin: 0 20px;
 }
 /**/
 .body_text-content {
@@ -259,6 +239,10 @@ p.Tech_Title-seccion {
 
   div#root {
     align-items: unset;
+  }
+
+  .AAA {
+    height: 100vh;
   }
   /**/
   .body_text-content h1 {
@@ -503,48 +487,3 @@ p.Tech_Title-seccion {
     margin-top: 20px;
   }
 }
-/*
-@media only screen and (min-width: 768px) {
-  body.Home {
-    background: url("/src/home/background-home-tablet.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Destination {
-    background: url("/src/destination/background-destination-tablet.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Crew {
-    background: url("/src/crew/background-crew-tablet.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Technology {
-    background: url("public/technology/background-technology-tablet.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  body.Home {
-    background: url("/src/home/background-home-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Destination {
-    background: url("/src/destination/background-destination-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Crew {
-    background: url("/src/crew/background-crew-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-  body.Technology {
-    background: url("public/technology/background-technology-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
-}*/

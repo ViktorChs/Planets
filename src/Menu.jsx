@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 import MenuDesplegable from './Nav-bar-desktop';
 import Logo from '/public/shared/logo.svg'
 
-
 const classNameFunc = ({ isActive }) => (isActive ? "active_link" : "");
+
 
 function Menu() {
     return(
