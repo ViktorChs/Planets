@@ -44,7 +44,7 @@ function Technology (){
         };
       }, []);
 
-    const [tech, setTech] = useState("Capsule");
+    const [tech, setTech] = useState("Vehicle");
 
     const cambiarTech = (nuevoTech) => {
         setTech(nuevoTech);
@@ -111,9 +111,21 @@ function Technology (){
       <div className="Tech_Container-img"><Appp/></div>
   <div className="Tech_Btn-desc-container">
   <div className="Crew_Btn-container">
-      <button onClick={() => cambiarTech("Vehicle")}>1</button>
-      <button onClick={() => cambiarTech("Spaceport")}>2</button>
-      <button onClick={() => cambiarTech("Capsule")}>3</button>
+      <button
+       className={tech === 'Vehicle' ? 'techActive' : ''}
+       onClick={() => cambiarTech('Vehicle')}>
+       1
+       </button>
+      <button
+       className={tech === 'Spaceport' ? 'techActive' : ''}
+       onClick={() => cambiarTech('Spaceport')}>
+       2
+       </button>
+      <button
+       className={tech === 'Capsule' ? 'techActive' : ''}
+       onClick={() => cambiarTech('Capsule')}>
+       3
+       </button>
     </div>  
     <div className="Tech_Desc-container">
         <p>The terminology...</p> 

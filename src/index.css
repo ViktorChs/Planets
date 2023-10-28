@@ -19,6 +19,11 @@ div#root {
   margin: 0;
   font-family: "Barlow Condensed", sans-serif;
 }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 .AAA {
   background-size: cover;
   width: 100vw;
@@ -159,6 +164,12 @@ div#root {
   color: white;
   margin: 0 15px;
 }
+.buttons_planest button:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+}
+button.active {
+  border-bottom: 1px solid white;
+}
 a {
   text-decoration: none;
 }
@@ -184,12 +195,19 @@ a {
   gap: 40px;
   margin: 20px;
 }
+
 .Crew_container-bts button {
   width: 10px;
   height: 10px;
   border-radius: 100px;
   border: transparent;
   background: #ffffff7d;
+}
+.Crew_container-bts button:hover {
+  background: #fdfdfdc9;
+}
+button.activeCrew {
+  background: white;
 }
 /*Tech*/
 .Tech_Main-container {
@@ -210,6 +228,7 @@ a {
 .Crew_Btn-container {
   margin: 1rem;
 }
+
 .Crew_Btn-container button {
   width: 50px;
   height: 50px;
@@ -221,6 +240,15 @@ a {
   font-family: "Bellefair", serif;
   margin: 0 1rem;
 }
+.Crew_Btn-container button:hover {
+  background: white;
+  color: black;
+}
+button.techActive {
+  background: white;
+  color: black;
+}
+
 p.Tech_Title-seccion {
   text-transform: uppercase;
   color: white;
@@ -242,7 +270,7 @@ p.Tech_Title-seccion {
   }
 
   .AAA {
-    height: 100vh;
+    height: 112vh;
   }
   /**/
   .body_text-content h1 {
@@ -488,5 +516,14 @@ p.Tech_Title-seccion {
   }
   .Main_Content-Destination {
     margin-top: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Crew_container-data img {
+    width: calc(15rem + 19vw);
+  }
+  .Main_Content-Destination {
+    margin-top: 122px;
   }
 }

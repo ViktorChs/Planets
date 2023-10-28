@@ -60,10 +60,18 @@ function Crew(){
 <hr className="Crew_line-decoration"></hr>
 <div className="Crew_Container-bts_cont">
 <div className="Crew_container-bts">
-      <button onClick={() => cambiarPj("Commander")}></button>
-      <button onClick={() => cambiarPj("Enginner")}></button>
-      <button onClick={() => cambiarPj("Pilot")}></button>
-      <button onClick={() => cambiarPj("Specialist")}></button>
+      <button 
+       className={crew === 'Commander' ? 'activeCrew' : ''}
+       onClick={() => cambiarPj("Commander")}></button>
+      <button 
+       className={crew === 'Enginner' ? 'activeCrew' : ''}
+       onClick={() => cambiarPj("Enginner")}></button>
+      <button 
+       className={crew === 'Pilot' ? 'activeCrew' : ''}
+       onClick={() => cambiarPj("Pilot")}></button>
+      <button 
+       className={crew === 'Specialist' ? 'activeCrew' : ''}
+       onClick={() => cambiarPj("Specialist")}></button>
     </div>
     <div className="Crew_desc-container">
           <p>{pjData[crew].Profession}</p>
