@@ -78,7 +78,6 @@ const DynamicBackground = () => {
     <div  className="AAA" style={{
       backgroundImage: `url(${backgroundImage})`,
     }}>
-    <p>{backgroundSize}</p>
     {<Routes>
         <Route path='/' element={ <Home />}  />
         <Route path='/Crew' element={ <Crew />} />
