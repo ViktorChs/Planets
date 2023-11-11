@@ -4,37 +4,6 @@ import React, { useState , useEffect} from "react"
 import Menu from "./Menu";
 
 
-function Appp() {
-  const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-  });
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowSize({
-        width: window.innerWidth,
-      });
-    };
-
-    window.addEventListener('resize', handleResize);
-
-
-
-    // Eliminar el event listener cuando el componente se desmonte
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []); // El segundo argumento debe ser un array vacío para que el efecto se ejecute solo una vez al inicio
-
- if(windowSize.width <= 904){
-      {techData[tech].img}
- } else if (windowSize.width >= 904){
-      {techData[tech].img2}
- }
-
-}
-
-
 function Technology (){
 
     useEffect(() => {
@@ -106,7 +75,6 @@ function Technology (){
     return (
      <>
   <Menu/>
-          <p className="Tech_Title-seccion"> 03 Space launch 101 </p>
 <div className="Tech_Main-container">
       <div className="Tech_Container-img"><Appp/></div>
   <div className="Tech_Btn-desc-container">

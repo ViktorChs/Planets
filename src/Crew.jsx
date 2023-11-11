@@ -50,9 +50,7 @@ function Crew(){
     return (
      <>
      <Menu />
-<div>
-    Crew
-</div>
+
 <div className="Crew_main-container">
 <div className="Crew_container-data">
 <div className="cont"><img src={pjData[crew].img} alt="Profeccional"/></div>
